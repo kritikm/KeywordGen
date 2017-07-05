@@ -14,9 +14,7 @@ rawResults = raw_frequency.term_search(searchTerms)
 
 for res in rawResults:
     print(res.filePath)
+    # for value in sorted(res, key = lambda x: -(res.searchScores[value])):
+    #     print(value)
     for value in res.searchScores:
         print('%s : %d' %(value, res.searchScores[value]))
-    print('\n')
-
-#run exp1 on searchTerms
-#run exp2 on searchTerms
