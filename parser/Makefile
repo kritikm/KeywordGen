@@ -8,7 +8,7 @@ MERGE=python2 ./bin/merge.py
 CONVERT_NULL=python2 ./bin/convert_NULL.py
 CONVERT_FORMAT=python2 ./bin/convert_format.py
 TOKENIZER=python2 ./bin/unitok.py -l hindi -n 
-SONGS=../100/
+SONGS=../full_set/
 
 # Normalizer replaces some of the spellings with easy spellings on which the parser or MT systems work very well. 
 

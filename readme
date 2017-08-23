@@ -1,0 +1,6 @@
+In parser/Makefile, set SONGS to ../data_set_directory (../full_set) in this case
+
+In folder /experiments are the python scripts for experiments:exp_baseline.py, exp_rake.py
+Change the values of the variables to set the data-set, keywords-path etc.
+
+lda_lsi.py in /experiments is for validation. Change the variables at the top according to your needs
